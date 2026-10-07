@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 
-const SERVER_URL = "https://beacon-production-4023.up.railway.app";
+const SERVER_URL = "https://rescuebeacon-backend.onrender.com";
 
 const socket = io(SERVER_URL, {
   transports: ["polling", "websocket"],
