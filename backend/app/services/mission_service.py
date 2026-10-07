@@ -1,0 +1,5 @@
+victims = {}
+
+missions = {}
+
+volunteers = {}
